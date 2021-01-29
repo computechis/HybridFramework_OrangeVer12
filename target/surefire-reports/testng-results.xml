@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23569" started-at="2021-01-19T02:14:44Z" finished-at="2021-01-19T02:15:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23569" started-at="2021-01-19T02:14:44Z" finished-at="2021-01-19T02:15:08Z">
+      <class name="com.computechis.testcases.LoginHRMTest">
+        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305]" name="setupTestSuite" is-config="true" duration-ms="214" started-at="2021-01-19T02:14:44Z" finished-at="2021-01-19T02:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305]" name="setUp" is-config="true" duration-ms="8780" started-at="2021-01-19T02:14:44Z" finished-at="2021-01-19T02:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305]" name="login" duration-ms="10564" started-at="2021-01-19T02:14:53Z" finished-at="2021-01-19T02:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305]" name="tearDownTest" is-config="true" duration-ms="867" started-at="2021-01-19T02:15:03Z" finished-at="2021-01-19T02:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginHRMTest.login()[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.computechis.testcases.LoginHRMTest@35083305]" name="tearDown" is-config="true" duration-ms="3335" started-at="2021-01-19T02:15:04Z" finished-at="2021-01-19T02:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.computechis.testcases.LoginHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
